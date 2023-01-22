@@ -1,16 +1,13 @@
-# This is a sample Python script.
+class Student:
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+    group = "B29234"
+    education = "Itstep"
+    teacher = "Evgeniy"
 
+    def __init__(self):
+        print(id(self))
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+st1 = Student()
+print(id(st1))
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print(Student.group)
