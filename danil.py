@@ -32,7 +32,7 @@ class Student:
 
      def end_of_day(self):
             print(f"Gladness = {self.gladness}")
-            print(f"Progress = {self.gladness}")
+            print(f"Progress = {round(self.gladness,  2)}")
 
      def live(self, day):
         day = "Day " + str(day) + " of " + self.name + "life"
